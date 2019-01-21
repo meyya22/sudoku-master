@@ -1,0 +1,140 @@
+div.cell {
+    width: 40px;
+    height: 40px;
+}
+
+a.sudoku {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+a.sudokumin {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+td.sol {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background: #ffffff;
+    border: 1px solid #000000;
+}
+
+input.cell {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1px;
+    background: #ffffff;
+    border: 0px solid red;
+}
+
+h1.sudoku {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#sudoku {
+    background: #eeeeee;
+    padding: 10px;
+    border: 1px solid #000000;
+    width: 400px;
+}
+
+table.sudoku_table,
+table.sudoku_table td {
+    border-bottom: 0.5px solid #333;
+    border-collapse: collapse;
+}
+
+table.sudoku_table input:-moz-read-only {
+    /* For Firefox */
+    background-color: #ccc;
+}
+
+table.sudoku_table input:read-only {
+    background-color: #ccc;
+}
+
+.sudoku-border-right {
+    border-right: 2px solid #333 !important;
+}
+/*.sudoku-border-bottom {
+	border-right:1px solid #333 !important;
+}*/
+.home button {
+    background-color: transparent;
+    border: none;
+    background-color: blue;
+    padding: 6px;
+    width: 100px;
+    color: white;
+    border-radius: 2px;
+}
+.validate {
+    background-color: transparent;
+    border: none;
+    background-color: green;
+    padding: 6px;
+    width: 100px;
+    color: white;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.solution {
+    background-color: transparent;
+    border: none;
+    background-color: orange;
+    padding: 6px;
+    width: 100px;
+    color: white;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.error {
+    color: red;
+    margin-top: 8px;
+}
+.success {
+    color: green;
+    margin-top: 8px;
+}
+.sudoku-border-bottom {
+    border-bottom: 4px solid black !important;
+}
+
+#sudoku {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*============================header==========================*/
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header .float_div div {
+    float: left;
+    margin: 0px 10px;
+}
+.header .float_div div a {
+    text-decoration: none;
+    background-color: #5e5ef5;
+    color: white;
+    padding: 8px 10px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 600;
+}
