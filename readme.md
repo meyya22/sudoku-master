@@ -17,7 +17,7 @@ The strategy to answer starts with an arbitrary frame, fills in arbitrary number
 
 Set up a blank frame in all, choose random numbers, fill in the appropriate boxes and make an answer. From the last answer, we withdraw the figure of answer to the number according to difficulty and make a frame. In order to keep the only answer, if you put all the frames in 1st to 3rd row, 4th to 6th row and 7th to 9th column in a frame, make a flow by making a reform.
 
-![Algorithm](https://raw.githubusercontent.com/meyya22/Sudoku_master/master/algorithm.jpg)
+![Algorithm](https://raw.githubusercontent.com/meyya22/Sudoku_master/algorithm.jpg)
 
 ## Technical Details
 
