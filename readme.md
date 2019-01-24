@@ -28,6 +28,24 @@ Set up a blank frame in all, choose random numbers, fill in the appropriate boxe
 - [POST /ajax/feasible](#post-ajaxfeasible)
 - [POST /ajax/save-grid](#post-ajaxsave-grid)
 
+Project Details : Sudoku online game
+
+Name Provided: meyya_sudoku
+Instance Id: i-00fa438f1e11e4e36
+Ip: 52.15.114.52
+
+Access Url: http://52.15.114.52/play
+
+apache2 -v
+Server version: Apache/2.4.29 (Ubuntu)
+Server built:   2018-10-10T18:59:25
+
+MySQL --version
+MySQL  Ver 14.14 Distrib 5.7.24, for Linux (x86_64) using  EditLine wrapper
+
+php -v
+PHP 7.2.10-0ubuntu0.18.04.1 (cli) (built: Sep 13 2018 13:45:02) ( NTS )
+
 #### POST /ajax/validate
 
 Validate user response for a puzzle
